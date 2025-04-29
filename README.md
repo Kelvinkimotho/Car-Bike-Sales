@@ -37,21 +37,7 @@ This is a fully functional and responsive car and bike sales website built using
 ---
 
 ## 📂 Folder Structure
-
-/Car-Bike-Sales
-│
-├── /assets
-│   ├── /images
-│   └── /styles
-│       └── style.css
-├── /js
-│   └── script.js
-├── index.html
-├── about.html
-├── contact.html
-├── cars.html
-└── bikes.html
-
+/Car-Bike-Sales │ ├── /assets │ ├── /images │ └── /styles │ └── style.css ├── /js │ └── script.js ├── index.html ├── about.html ├── contact.html ├── cars.html └── bikes.html
 
 ---
 
