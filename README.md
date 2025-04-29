@@ -34,11 +34,6 @@ This is a fully functional and responsive car and bike sales website built using
 - **Git & GitHub** – Version control and hosting.
 - **GitHub Pages** – Deployment.
 
----
-
-<pre lang="markdown"><code> ## 📂 Folder Structure ``` /Car-Bike-Sales │ ├── /assets │ ├── /images │ └── /styles │ └── style.css ├── /js │ └── script.js ├── index.html ├── about.html ├── contact.html ├── cars.html └── bikes.html ``` </code></pre>
----
-
 ## ✅ Steps Followed
 
 1. **Project Planning & Wireframing**
