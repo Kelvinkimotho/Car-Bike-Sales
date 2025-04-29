@@ -448,3 +448,41 @@
     pointer-events: none;
   }
   
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #1e2a38;
+      position: absolute;
+      top: 70px; /* height of navbar */
+      left: 0;
+      padding: 1rem;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin-bottom: 1rem;
+    }
+  
+    .nav-links li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
