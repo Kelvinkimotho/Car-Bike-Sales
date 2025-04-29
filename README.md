@@ -69,8 +69,7 @@ This is a fully functional and responsive car and bike sales website built using
 
 ## 🌐 Live Demo
 
-🔗 [View the Live Website](#)  
-_Replace `#` with your actual deployment link._
+🔗 [View the Live Website](https://kelvinkimotho.github.io/Car-Bike-Sales/)  
 
 ---
 
