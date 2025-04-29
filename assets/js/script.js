@@ -104,6 +104,13 @@ document.addEventListener("DOMContentLoaded", () => {
     backToTopBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
     });
-
+    
+   // toggle handling
+   const toggleBtn = document.querySelector('.menu-toggle');
+   const navLinks = document.querySelector('.nav-links');
+ 
+   toggleBtn.addEventListener('click', () => {
+     navLinks.classList.toggle('active');
+   });
   });
   
