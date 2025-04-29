@@ -1,6 +1,6 @@
-# 🚗🏍️ Car and Bike Sales Website
+# 🚗🏍️ Car and Bike Sales Website By Kelvin Kimotho
 
-**PLP Web Development Final Project By Kelvin Kimotho**  
+**PLP Web Development Final Project**  
 This is a fully functional and responsive car and bike sales website built using HTML, CSS, and JavaScript. It was created as the final project for the PLP (Power Learn Project) Web Development course.
 
 ---
