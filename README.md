@@ -50,7 +50,7 @@ This is a fully functional and responsive car and bike sales website built using
 
 4. **JavaScript Functionality**
    - Created image sliders on the homepage.
-   - Implemented a dynamic product filter/search.
+   - Implemented features like back to top
    - Validated contact form inputs.
    - Added modal popups for detailed views.
 
