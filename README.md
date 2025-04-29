@@ -19,7 +19,6 @@ This is a fully functional and responsive car and bike sales website built using
 - 🏠 **Homepage** with featured vehicles and navigation.
 - 📄 **Multi-page layout** for cars, bikes, about, and contact.
 - 📱 **Responsive design** for all devices.
-- 🔍 **Search and filter** functionality for products.
 - 📷 **Image slider** for showcasing vehicles.
 - 📝 **Contact form** with JavaScript validation.
 - 💡 **Interactive modals** for viewing vehicle details.
