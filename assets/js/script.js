@@ -39,7 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
         error.textContent = message;
         field.parentNode.insertBefore(error, field.nextSibling);
         field.classList.add("error");
+      
+        // Remove the error message after 3 seconds
+        setTimeout(() => {
+          error.remove();
+          field.classList.remove("error");
+        }, 3000);
       }
+      
   
       function clearErrors() {
         document.querySelectorAll(".form-error").forEach((el) => el.remove());
@@ -53,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   
-    // ========== BUTTON & CARD HOVER ANIMATION ==========
+    //  BUTTON & CARD HOVER ANIMATION
     const buttons = document.querySelectorAll("button, .card");
     buttons.forEach((btn) => {
       btn.addEventListener("mouseenter", () => {
@@ -64,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   
-    // ========== SCROLL-BASED ANIMATION ==========
+    // SCROLL-BASED ANIMATION 
     const animatedElements = document.querySelectorAll(".card, .hero, .products");
   
     const observer = new IntersectionObserver(
@@ -81,8 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
     animatedElements.forEach((el) => observer.observe(el));
   
-    // ========== OPTIONAL DARK MODE TOGGLE ==========
-    // You can add a toggle button with ID #darkModeToggle
+    //  OPTIONAL DARK MODE TOGGLE
+    
     const darkToggle = document.getElementById("darkModeToggle");
     if (darkToggle) {
       darkToggle.addEventListener("click", () => {
@@ -112,5 +119,16 @@ document.addEventListener("DOMContentLoaded", () => {
    toggleBtn.addEventListener('click', () => {
      navLinks.classList.toggle('active');
    });
+
+   // manage cart
+   const cartCountElement = document.querySelector(".cart-count");
+  let cartCount = 0;
+
+  document.querySelectorAll(".add-to-cart").forEach(button => {
+    button.addEventListener("click", () => {
+      cartCount++;
+      cartCountElement.textContent = cartCount;
+    });
+  });
   });
   
